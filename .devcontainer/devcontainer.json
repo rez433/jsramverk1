@@ -7,7 +7,7 @@
     "vscode": {
       "settings": {
 		"editor.minimap.enabled": false,
-        "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, mono",
+        "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, monospace",
         "workbench.colorTheme": "Evondev Dracula Author",
 		"workbench.remoteIndicator.showExtensionRecommendations": false,
 		"extensions.ignoreRecommendations": true,
