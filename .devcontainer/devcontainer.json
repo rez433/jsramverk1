@@ -6,7 +6,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "editor.fontFamily": "FiraCode Nerd Font Mono, monospace",
+        "editor.fontFamily": "'FiraCode Nerd Font Mono', monospace",
         "workbench.colorTheme": "Evondev Dracula Author",
         "terminal.integrated.shell.linux": "/usr/bin/zsh"
       },
