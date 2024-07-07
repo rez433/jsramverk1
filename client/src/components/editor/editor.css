@@ -1,0 +1,41 @@
+.ql-editor {
+    background-color: #F3F3F3;
+    width: 8.5in;
+    min-height: 11in;
+    padding: 1in !important;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+
+
+.menuBarDiv {
+	height: 2rem;
+	width: 100%;
+	padding: 2px;
+	& .funcSpan {
+		padding: 4px 6px;
+		cursor: pointer;
+	}
+	& .funcSpan:hover {
+		background: #ccc;
+		border-radius: 5px;
+	}
+}
+
+@media print {
+    body {
+        background: none;
+    }
+
+    .ql-editor {
+        margin: 0;
+        padding: 0;
+        top: 0;
+        box-shadow: none;
+        min-height: 10in;
+    }
+
+    .ql-toolbar .ql-snow {
+        display: none;
+    }
+}
