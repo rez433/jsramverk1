@@ -6,9 +6,7 @@ RUN apk add --no-cache --virtual .dev-dependencies \
     git \
     curl \
     nodejs \
-    npm \
-    libstdc++ \
-    icu-libs
+    npm
 
 SHELL ["/bin/zsh", "-c"]
 
