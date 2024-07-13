@@ -5,7 +5,6 @@ RUN apk add --no-cache --virtual .dev-dependencies \
     zsh-vcs \
     git \
     curl \
-    build-base \
     nodejs \
     npm
 
